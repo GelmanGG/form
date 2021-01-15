@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 400px;
+    margin: auto;
+}
+
+.field {
+    width: 150px;
+}
+
+.field__log {
+    margin-left: 18px;
+}
+
+.field__pas {
+    margin-left: 10px;
+}
+
+.field__mail {
+    margin-left: 15px;
+}
+
+.options {
+    width: 160px;
+    margin-left: 27px;
+
+    border-radius: 6px;
+}
+
+.form__text-check {
+    margin-top: 0px;
+}
+
+.create {
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.form__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table {
+    border-spacing:0px
+
+}
