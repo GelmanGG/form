@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .wrapper {
@@ -8,45 +11,87 @@ body {
     margin: auto;
 }
 
+.caption {
+    font-size: 23px;
+    font-weight: 500;
+}
+
 .field {
-    width: 150px;
+    border-style: solid #000000;
+    border-width: 1px;
+    width: 160px;
+    height: 20px;
+
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .field__log {
-    margin-left: 18px;
+    margin-left: 28px;
 }
 
 .field__pas {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .field__mail {
-    margin-left: 15px;
+    margin-left: 29px;
 }
 
 .options {
-    width: 160px;
-    margin-left: 27px;
+    font-size: 13px;
+    font-weight: 600;
 
-    border-radius: 6px;
+    width: 166px;
+    margin-left: 39px;
+
+    border-radius: 3px;
+    border-style: solid #000000;
+    height: 22px;
 }
 
 .form__text-check {
     margin-top: 0px;
 }
 
+.check {
+    margin-right: 8px;
+
+    border-style: solid #000000;
+}
+
 .create {
-    border-radius: 6px;
-    margin-bottom: 30px;
+    font-size: 15px;
+
+    margin-bottom: 25px;
+
+    height: 22px;
     width: 100px;
+
+    border-style: solid #000000;
+    border-width: 1px;
+    border-radius: 6px;
 }
 
 .form__text {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
 
 .table {
     border-spacing:0px
 
+}
+
+.tabl-bold {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tabl-text {
+    font-size: 15px;
+    font-weight: 400;
 }
